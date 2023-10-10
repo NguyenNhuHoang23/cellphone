@@ -1,0 +1,240 @@
+*{
+    margin: 0 auto;
+    padding: 0;
+    max-width: 1440px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.search{
+    display: flex;
+    /* justify-content: space-around; */
+    background-color: rgb(184, 66, 66);
+    height: 50px;
+}
+.logo img{
+    width: 100px;
+    height: 40px;
+    margin: 5px;
+}
+.search form{
+    margin-right: -50px;
+}
+.search form input{
+    width: 300px;
+    height: 30px;
+    border-radius: 8px;
+    margin: 6px;
+}
+.search form button{
+    width: 100px;
+    height: 30px;
+    border-radius: 8px;
+    margin-right: -50px;
+}
+.ll ul{
+    display: flex;
+    padding-left: 100px;
+}
+.ll ul li{
+    list-style: none;
+    direction: none;
+    padding: 10px;
+    padding-top: 15px;
+}
+.ll ul li a{
+    color: black;
+    text-decoration: none;
+}
+
+.function{
+
+}
+.function ul{
+    display: flex;
+    height:40px;
+    width: 70%;
+    margin-left: 200px;
+}
+.function ul li{
+    list-style: none;
+    font-size: 18px;
+    padding-top: 10px;
+}
+.function ul li:hover{
+    text-decoration: underline;
+}
+.function ul li a{
+    list-style: none;
+    text-decoration: none;
+    color: black;
+}
+.contenr{
+    height: 500px;
+    margin-top: 20px;
+    display: flex;
+}
+
+.auto img{
+    width: 1090px;
+    border-radius: 10px;
+}
+.auto p{
+    font-size: 20px;
+    padding-left: 30px;
+}
+.auto h3{
+    padding-left: 30px;
+    font-size: 25px;
+    color: red;
+}
+.khac{
+    margin-left: 10px;
+}
+.khac h4{
+    font-size: 25px;
+    padding-top: 20px;
+    padding-left: 70px;
+    color: rgb(232, 102, 102);
+}
+.khac img{
+    width: 340px;
+    height: 135px;
+    border-radius: 10px;
+}
+.inphone{
+    width: 100%;
+    height: 500px;
+    margin-top: 25px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+}
+.text h1{
+    font-size: 25px;
+    padding-left: 25px;
+    padding-top: 20px;
+}
+.ipad{
+    display: flex;
+    justify-content: space-around;
+    margin-left: 30px;
+    margin-top: 30px;
+}
+
+.nd h1{
+    font-size: 20px;
+    padding-top: 10px;
+}
+.nd del{
+    padding-top: 10px;
+}
+.nd h5{
+    padding-top: 10px;
+    font-size: 25px;
+    color: red;
+}
+.bannerdt img{
+    width: 100%;
+    height: 400px;
+    margin-top: 25px;
+    border-radius: 10px;
+}
+.text2 h1{
+    font-size: 25px;
+    padding-top: 20px;
+    padding-left: 20px;
+}
+
+.iphone{
+    max-width: 100%;
+    height: auto;
+    background-color: rgb(232, 229, 229);
+    margin-top:25px;
+    border-radius: 10px;
+
+}
+.col{
+    background-color: rgb(255, 255, 255);
+    border-radius: 8px;
+    margin: 20px;
+    width: 300px;
+    height: auto;
+    margin-top: 100px;
+}
+.col img{
+    margin-top: 20px;
+}
+.col:hover{
+    background-color: rgb(205, 223, 238);
+}
+.col h1{
+    font-size: 20px;
+}
+.col h1 a{
+    color: black;
+    text-decoration: none;
+}
+.col h1 a:host{
+    text-decoration: wavy;
+}
+.col h5{
+    color: red;
+}
+.col input{
+    width: 100px;
+    height: 30px;
+    background-color: rgb(233, 234, 232);
+    margin: 5px;
+    border: none;
+    border-radius: 8px;
+}
+.text2 h1{
+    font-size: 30px;
+    padding-top: 20px;
+}
+.banner_pc{
+    max-width: 100%;
+}
+
+.banner_pc img{
+    height: 400px;
+    width: 100%;
+    margin-top: 25px;
+}
+.laptop{
+    max-width: 100%;
+    height: auto;
+    background-color: rgb(232, 229, 229);
+    margin-top:25px;
+    border-radius: 10px;
+}
+.banneripad{
+    max-width: 100%;
+}
+.banneripad img{
+    height: 400px;
+    width: 100%;
+    margin-top: 25px;
+}
+.cellipad{
+    max-width: 100%;
+    height: auto;
+    background-color: rgb(232, 229, 229);
+    margin-top:25px;
+    border-radius: 10px;
+}
+.advertisement{
+    margin-top: 25px;
+}
+.fooder{
+    margin-top: 25px;
+    max-width: 100%;
+    height: 50px;
+    background-color: black;
+    border-radius: 5px;
+}
+.fooder p{
+    color: aliceblue;
+    padding-top: 17px;
+    padding-left: 30px;
+
+}

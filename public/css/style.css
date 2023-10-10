@@ -1,0 +1,7 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+}
+.type1 h1{
+    font-size: 25px;
+}

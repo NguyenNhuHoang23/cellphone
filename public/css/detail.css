@@ -1,0 +1,256 @@
+* {
+    margin: 0 auto;
+    padding: 0;
+    max-width: 1440px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.search {
+    display: flex;
+    /* justify-content: space-around; */
+    background-color: rgb(209, 209, 209);
+    height: 50px;
+}
+.logo img {
+    width: 100px;
+    height: 40px;
+    margin: 5px;
+}
+.search form {
+    margin-right: -50px;
+}
+.search form input {
+    width: 300px;
+    height: 30px;
+    border-radius: 4px;
+    margin: 6px;
+}
+.search form button {
+    width: 100px;
+    height: 30px;
+    border-radius: 4px;
+    margin-right: -50px;
+}
+.ll ul {
+    display: flex;
+    padding-left: 100px;
+}
+.ll ul li {
+    list-style: none;
+    direction: none;
+    padding: 10px;
+    padding-top: 15px;
+}
+.ll ul li a {
+    color: black;
+    text-decoration: none;
+}
+.row{
+
+}
+.col{
+
+}
+.col p{
+
+}
+.col p:hover{
+    text-decoration: underline;
+}
+.function {
+}
+.function ul {
+    display: flex;
+    height: 40px;
+    width: 70%;
+    margin-left: 200px;
+}
+.function ul li {
+    list-style: none;
+    font-size: 18px;
+    padding-top: 10px;
+}
+.function ul li:hover {
+    text-decoration: underline;
+}
+.function ul li a {
+    list-style: none;
+    text-decoration: none;
+    color: black;
+}
+.row {
+    padding-left: 100px;
+    padding-right: 100px;
+}
+.page{
+    margin-top: 10px;
+    margin-left: 20px;
+}
+.page p{
+    font-size: 14px;
+    color: blue;
+}
+.titleproduct{
+    display: flex;
+}
+.titleproduct h1{
+    font-size: 28px;
+    padding-right: 600px;
+}
+.titleproduct p{
+    color: rgb(75, 75, 236);
+}
+.img{
+    width: 50%;
+    float: left;
+}
+.img img{
+    text-align: center;
+    height: 400px;
+    width: 400px;
+    margin-left: 150px;
+    margin-top: 30px;
+
+}
+.img p{
+    padding-left: 150px;
+    margin-top: 20px;
+    font-weight: bold;
+}
+.parameter{
+    width: 600px;
+    height: 250px;
+    border-radius: 5px;
+    background-color: rgb(236, 234, 201);
+    padding-top: 20px;
+}
+.parameter h5{
+    padding-left: 20px;
+    font-weight: bold;
+}
+.parameter h3{
+    padding-left: 20px;
+    font-size: 14px;
+    font-weight: bold;
+    color: blue;
+    line-height: 20px;
+}
+.parameter ul{
+
+padding-right: 100px;
+  display: flex;
+}
+.parameter ul li{
+
+    list-style: none;
+}
+.detailproduct{
+    width: 50%;
+    float: right;
+}
+.ship{
+    display: flex;
+}
+.delivery{
+    margin-top: 20px;
+    margin-left: -100px;
+}
+.delivery img{
+    width: 200px;
+    height: 100px;
+}
+.delivery p{
+    padding-right: -100px;
+}
+.achievements{
+    margin-top: 20px;
+}
+.achievements img{
+    width: 200px;
+    height: 100px;
+}
+.price{
+    display: flex;
+}
+.price h1{
+    font-size: 29px;
+    color: red;
+    font-weight: bold;
+}
+.price del{
+    padding-top: 10px;
+    padding-right: 250px;
+}
+.price p{
+    padding-right: 30px;
+}
+.row{
+    display: flex;
+}
+.col img{
+    height: 50px;
+    width: 50px;
+}
+.col button{
+    margin-top: 20px;
+    margin-left: -100px;
+}
+.promotion{
+    width: 600px;
+    height: 300px;
+    background-color: beige;
+    border-radius: 5px;
+    margin-top: 20px;
+    margin-left: -0px;
+}
+.promotion p{
+    padding-left: 20px;
+    padding-top: 2px;
+}
+.buy-now{
+    width: 600px;
+    height: 80px;
+    border-radius: 10px;
+    margin-top: 20px;
+    margin-left: -142px;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    background-color: rgb(255, 0, 0);
+}
+.installment{
+    width: 280px;
+    height: 80px;
+    border-radius: 10px;
+    margin-top: 20px;
+    margin-left: -98px;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    background-color: rgb(0, 55, 255);
+}
+.atm{
+    width: 280px;
+    height: 80px;
+    border-radius: 10px;
+    margin-top: 20px;
+    margin-left: -50px;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    background-color: rgb(0, 55, 255);
+}
+.holine{
+    padding-top: 20px;
+}
+.footer{
+    width: 100%;
+    height: 50px;
+    background-color: black;
+    margin-top: 1100px;
+    border-radius: 5px;
+}
+.footer p{
+    color: aliceblue;
+    padding-top: 17px;
+    padding-left: 30px;
+}
